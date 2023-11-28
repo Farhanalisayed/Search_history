@@ -1,0 +1,48 @@
+* {
+  font-family: 'Roboto';
+}
+
+.time {
+  font-size: 15px;
+  color: #6697ff;
+}
+.site-logo {
+  height: 30px;
+  width: 30px;
+}
+.site-title {
+  font-size: 20px;
+  color: black;
+}
+.site-url {
+  color: #ececec;
+  font-size: 15px;
+}
+.delete {
+  height: 30px;
+  width: 30px;
+}
+@media (max-width: 767px) {
+  .history-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .site-details {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767px) {
+  .history-cont {
+    display: flex;
+    flex-direction: row;
+  }
+  .site-details {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.history-details {
+  display: flex;
+  justify-content: space-around;
+}
